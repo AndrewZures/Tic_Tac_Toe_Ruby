@@ -1,0 +1,5 @@
+cp jruby-complete.jar ruby_ttt.jar
+cd ../src/
+jar uf ../jar/ruby_ttt.jar *
+cd ../jar
+jar ufe ruby_ttt.jar org.jruby.JarBootstrapMain jar-bootstrap.rb

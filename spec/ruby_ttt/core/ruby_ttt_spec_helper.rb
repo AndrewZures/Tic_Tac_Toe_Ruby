@@ -1,0 +1,8 @@
+require_relative '../../../src/ruby_ttt//core/players/computer_ai'
+require_relative '../../../src/ruby_ttt//core/players/human_player'
+require_relative '../../../src/ruby_ttt//core/boards/board'
+require_relative '../../../src/ruby_ttt//core/boards/two_dimensional_board'
+require_relative '../../../src/ruby_ttt//core/boards/three_dimensional_board'
+require_relative '../../../src/ruby_ttt//console/console_ui'
+require_relative '../../../src/ruby_ttt//core/game'
+require_relative '../../../src/ruby_ttt//core/factory'
